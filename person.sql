@@ -9,7 +9,7 @@ CREATE TABLE person
 	gender Gender NOT NULL,
 	date_of_birth DATE NOT NULL,
 	country_of_birth VARCHAR(50) NOT NULL,
-	email VARCHAR(50)
+	email VARCHAR(50) UNIQUE
 );
 
 INSERT INTO person
